@@ -187,6 +187,36 @@ button {
   top: 0;
 }
 
+/* blog section start from here  */
+.blog {
+  margin: 140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid rebeccapurple;
+  border-radius: 15px;
+}
+
+.question {
+  text-align: center;
+  color: white;
+
+  margin-bottom: 30px;
+
+}
+
+.answer {
+  margin-left: 70px;
+  margin-right: 70px;
+
+  color: aliceblue;
+  font-size: larger;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
