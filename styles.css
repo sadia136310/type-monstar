@@ -188,19 +188,37 @@ button {
 }
 
 /* blog section start from here  */
+.header {
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+.link-added {
+  color: #9dffad;
+  font-size: larger;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 3px solid #9dffad;
+  border-radius: 15px;
+
+}
+
 .blog {
-  margin: 140px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   border: 2px solid rebeccapurple;
+
   border-radius: 15px;
 }
 
 .question {
   text-align: center;
   color: white;
-
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
 }
 
@@ -214,8 +232,7 @@ button {
 
 
 
-
-
+/* media query start here  */
 
 @media only screen and (max-width: 700px) {
   .box-container {
