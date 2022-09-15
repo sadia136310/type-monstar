@@ -15,15 +15,15 @@
     </header>
     <main>
         <div class="blog">
-            <h1 class="question"> What's the difference between Local Storage Vs. Session Storage?</h1>
+            <h1 class="question"> Difference between Local Storage and Session Storage?</h1>
             <p class="answer">
-                <LocalStorage>Local Storage :LocalStorage is a property that allows JavaScript sites and apps to save
-                    key-value
-                    pairs in a web
-                    browser with no
-                    expiration date. This means the data stored in the browser will persist even after the browser
-                    window is
-                    closed.
+                Local Storage : LocalStorage is a property that allows JavaScript sites and apps to save
+                key-value
+                pairs in a web
+                browser with no
+                expiration date. This means the data stored in the browser will persist even after the browser
+                window is
+                closed.
             </p>
             <br>
             <p class="answer">Session Storage: The sessionStorage object stores data only for a session. It means that
@@ -33,7 +33,46 @@
                 deleted when the browser is closed. A page session lasts as long as the web browser is open and survives
                 over
                 the page
-                refresh</p>
+                refresh.</p>
+        </div>
+
+        <div class="blog">
+            <h1 class="question"> Difference between Global Scope and Block Scope</h1>
+            <p class="answer">
+                Global Scope : The Javascript global scope is the context where everything in a Javascript program
+                executes by default. This scope
+                includes all variables, objects, and references that are not contained within a customized scope defined
+                by a
+                programmer. Global scope is the entire Javascript execution environment.
+            </p>
+            <br>
+            <p class="answer">Block Scope : This scope restricts the variable that is declared inside a specific block,
+                from access by the outside of the block. The
+                let & const keyword facilitates the variables to be block scoped.</p>
+        </div>
+        <div class="blog">
+            <h1 class="question">What is Event loop in JavaScript?</h1>
+
+            <p class="answer">Event loop is an endless loop, which waits for tasks, executes them and then sleeps until
+                it receives
+                more tasks. The
+                event loop executes tasks from the event queue only when the call stack is empty i.e. there is no
+                ongoing task. The
+                event loop allows us to use callbacks and promises</p>
+        </div>
+        <div class="blog">
+            <h1 class="question"> How do we get undefined in javascript?</h1>
+            <p class="answer">
+                1. A variable that has not been assigned a value is of type undefined.
+                <br>
+                2. A method or statement also returns undefined if the
+                variable that is being evaluated does not have an assigned value.
+                <br>
+                3. A function returns undefined if a value was not
+                returned.
+
+            </p>
+
         </div>
     </main>
 </body>
