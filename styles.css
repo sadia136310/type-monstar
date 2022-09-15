@@ -189,7 +189,7 @@ button {
 
 /* blog section start from here  */
 .header {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 80%;
 }
 
@@ -208,6 +208,7 @@ button {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 30px;
+  margin-bottom: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
   border: 2px solid rebeccapurple;
@@ -249,6 +250,21 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
 
+  }
+
+  /* blog part  */
+  .header {
+    margin-left: 60%;
+  }
+
+  .blog {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .answer {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 }
